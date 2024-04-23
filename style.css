@@ -1,0 +1,144 @@
+
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #333333;
+  font-family: "ヒラギノ角ゴシック";
+  color: #ffffff;
+  overflow-x: hidden;
+
+}
+
+/*ヘッダー*/
+.title{
+  margin-left: 125px;
+  background: linear-gradient(to right, #ffffff, #30CFD0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+.headder{
+  width: 110%;
+}
+
+hr{
+   margin-top: -10px;
+   box-sizing : border-box;
+}
+
+.hc{
+  display: inline-block;  }
+
+.hc b{
+  font-size: 15px;
+}
+
+.ver{
+  font-size: 13px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.kousinbi{
+  width: 20%;
+  margin-left: 45%;
+  display: inline-block;
+  margin-top: 4em;
+}
+
+.midasi {
+  font-size: 26px;
+  padding: 0.01em 0.5em;
+  color: #f1f1f1;
+  background: transparent;
+  border-left: solid 6px #7db4e6;
+}
+
+.komidasi {
+  font-size: 23px;
+  color: #e6e7e8;
+  font-weight: 600;
+}
+
+.content{
+  margin-left: 15px;
+  margin-top: -10px;
+
+}
+
+.eva {
+  margin-left: 10px;
+  color : #00e9ab;
+}
+
+.urlbl{
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.main{
+  margin-left: 125px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+
+.kome{
+ font-size: 20px;
+ color: #c4c4c4;
+ font-weight: 550;
+}
+
+.ad-1{
+  vertical-align: top;
+  position: absolute;
+  right: 150px;
+  top: 0px;
+}
+.ad-2{
+ margin-top: 50px;
+}
+
+
+/*URL*/
+.url {
+  text-decoration: none;
+  font-size: 23px;
+  color: #4d97ff;
+}
+
+/*規制情報*/
+.biline {
+  font-size : 23px;
+  color: #e6e7e8; 
+  margin-top: 15px;
+  width: 100%;
+}
+
+.bic{
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.bic b{
+  color: #d5d5d5;
+}
+
+#bic{
+  margin-left: 30px;
+}
+
+.biline a {
+  margin-left : 20px;
+  margin-top: -5px;
+  color: #c4c4c4;
+  white-space: nowrap;
+}
