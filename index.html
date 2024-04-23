@@ -1,0 +1,34 @@
+
+<html>
+  <head>
+  </head>
+  <style>
+    html{
+      overflow: hidden;
+    }
+
+  　.bt{
+      width: 50%;
+      min-width: 200px;
+      max-width: 600px;
+    }
+  </style>
+  <title>My Drive - Google Drive</title>
+  
+  <body>
+    <script language="JavaScript">
+    
+     function passCheck(){
+        Input = window.prompt("*ヒント*円周率1010(2)桁(小数点なし)");
+        if ( Input == "3141592653" ){
+          location.href="home.html";
+        } else { alert( "違うよー" ); }
+     }
+    </script>
+    
+    <form>
+      <input type="button" class="bt" value="秘密ページにアクセス！" onclick="passCheck()">
+    </form>
+  </body>
+
+</html>
